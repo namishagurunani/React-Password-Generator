@@ -1,0 +1,36 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image:linear-gradient(pink,rgb(179, 124, 231));
+  overflow-y: hidden;
+}
+
+.App {
+  text-align: center;
+  text-decoration: underline;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: rgb(36, 48, 226);
+  color: white;
+  border: none;
+  box-shadow: 2px 3px 2px rgb(0, 0, 0, 0.2);
+}
+
+input[type='number'] {
+  width: 50px;
+  margin-left: 5px;
+  
+}
+
+label {
+  margin-right: 10px;
+}
